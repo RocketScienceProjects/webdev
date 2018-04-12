@@ -1,0 +1,16 @@
+body {
+    background-color: gray
+}
+
+li {
+    color: gold;
+    border: 2px solid blueviolet;
+}
+
+#special {
+    color: fuchsia
+}
+
+.completed {
+    text-decoration: line-through
+}

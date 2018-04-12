@@ -1,0 +1,13 @@
+p {
+    /* Content - Width & height */
+    width: 50%;
+
+    /* Border */
+    border: 20px solid gray;
+
+    /* Padding */
+    padding: 5px;
+
+    /* Margin */
+    margin: auto auto
+}

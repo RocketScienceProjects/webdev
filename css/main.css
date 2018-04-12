@@ -1,0 +1,51 @@
+}
+header {
+  /*background: url(http://www.lorempixel.com/1000/200/abstract); */
+  /* overflow: auto; */
+  background: linear-gradient(#231F1F, #040100);
+}
+
+header img {
+  /* float: left; */
+    padding: 8px;
+    width: 223px;
+    height: 236px;
+    position: inherit;
+}
+
+* {
+    background-color: olive
+}
+/* Decendant selector */
+
+ol li input[type="text"] {
+    border: navy solid 2px
+}
+
+
+
+/* Adjacent selector */
+h4 + ul {
+    background-color: mintcream
+}
+
+/* Attribute selector */
+
+input[type="button"] {
+    background-color: maroon
+}
+
+/* nth of type */
+
+body {
+    font-family: 'Chicle', cursive;
+    font-weight: 2.0em;
+}
+
+h1 {
+    text-align: center
+}
+
+div header a {
+    border: solid 10px gray
+}

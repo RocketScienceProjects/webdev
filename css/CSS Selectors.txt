@@ -1,0 +1,20 @@
+The 3 primary selectors are:
+1. elements
+
+li {
+
+}
+
+2. id 
+#special {
+
+}
+
+3. class
+.completed {
+
+}
+
+Some more selectors:
+
+1. Star

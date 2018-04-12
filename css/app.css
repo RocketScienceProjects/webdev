@@ -1,0 +1,20 @@
+h1 {
+    color: rgb(84, 26, 95);
+    border: green 2px solid  
+    /* color, width and border type */
+}
+
+h4 {
+    color: rgb(29, 26, 2);
+}
+
+li {
+    color: rgb(98, 0, 255)
+}
+
+ body {
+    /* background: url(https://d2jd5cd93sjelr.cloudfront.net/spree/images/34243/large/f2002235-2_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background: pink;
+}

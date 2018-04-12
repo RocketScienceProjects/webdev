@@ -1,0 +1,12 @@
+
+input[type="text"] {
+  border: 1px solid red
+}
+
+li li {
+    border: green 2px solid
+}
+
+body {
+    background: grey
+}
