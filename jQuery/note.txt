@@ -1,0 +1,19 @@
+selector is jQuery:
+$('selector') e.g: $("li")
+
+manipulate after selection:
+$("li").css("color", "green')
+
+
+
+#some jQuery methods:
+text()
+html()
+attr()
+val()
+addClass()
+removeClass()
+toggleClass()
+
+
+#Effects with jQuery
