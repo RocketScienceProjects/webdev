@@ -20,12 +20,12 @@
 
 //A simple way to achive with CSS class
 
-$("li").click(function(){
+$("ul").on("click", "li", function(){
     $(this).toggleClass("completed");
 })
 
 //Click X to delete
-$("span").click(function(event){
+$("ul").on("click", "span", function(event){
     $(this).parent().fadeOut(1000, function(){
         $(this).remove();
     });
@@ -33,6 +33,18 @@ $("span").click(function(event){
 })
 
 //create entry to To-Do
-$("input[type=text]").keypress(function(){
-    console.log("key pressed")
+$("input[type=text]").keypress(function(event){
+    if(event.which === 13) {  //checks for hitting the enter key
+        var toDoText = $(this).val(); //grab new toDo
+        $(this).val("");
+        $("ul").append("<li><span><i class='fa fa-trash'></i></span> " + toDoText+ "</li>") //apend the new entry to the list of ToDos
+
+
+    }
+    
+})
+
+$(".fa-plus").click(function(){
+    // alert("clicked plush")
+    $("input[type=text]").fadeToggle();
 })
